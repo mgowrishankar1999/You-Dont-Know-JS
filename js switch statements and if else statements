@@ -1,0 +1,46 @@
+//switch case statements 
+var fruits=["apple","banana","goa","pineapple"];
+var fruits = prompt("ENTER THE FRUITS:");
+
+switch (fruits){
+  case 'apple':
+    console.log("wow ur intrested in apple");
+    break;
+  case 'banana':
+    console.log("yakk i hate this kind of fruit :(  :(    ");
+    break;
+   case 'goa':
+    console.log("wow its goa yummy!!!");
+    break;  
+    case 'pineapple':
+    console.log("wow its pineapple I really love that   ");
+    break; 
+    
+    default :
+    console.log("bustard enter the valuble fruits otherwise i fuck you ")
+}
+
+// if else statements using 
+
+var fruits = prompt("ENTER THE FRUITS: ") ;
+
+if (fruits ==="apple"){
+  console.log( "wow!! i like this fruits that you mentioned ");
+  
+  
+}
+else if (fruits ==="banana"){
+  console.log("yakk i dont like that!!!!!!");
+}
+else if (fruits === "goa"){
+  console.log("hurray  i love that!!!!!!");
+}
+else if (fruits === "banana"){
+  console.log("yakk i dont like that!!!!!!");
+}
+else if (fruits === "pineapple"){
+  console.log("i love this #######");
+}
+else {
+  console.log("fuck enterd the valuble fruits")
+}
